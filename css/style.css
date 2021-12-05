@@ -5,6 +5,23 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    width: 90vh;
+}
+
+h1{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
     margin: 0 auto;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 80vw;
+    height: 75vh;
+}
+
+.cardContainer{
+    border: 1px solid black;
+    padding: 2em;
+    margin: 1em;
 }
