@@ -5,15 +5,18 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #F7EDE2;
 }
 
 h1{
     text-align: center;
+    padding: 1em 0;
+    letter-spacing: 3px;
 }
 
 .cards{
     display: flex;
-    margin: 0 auto;
+    margin: 1em auto;
     justify-content: space-around;
     align-items: stretch;
     width: 80vw;
@@ -21,10 +24,35 @@ h1{
 }
 
 .cardContainer{
-    border: 1px solid black;
+    background-color: #F5CAC3;
+    flex: 1;
+    border: 2px solid #F28482;
     border-radius: 1em;
-    padding: 2em;
+    padding: 0.5em 2em;
     margin: 1em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cardContainer h2{
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 0.3em 0;
+}
+
+.cardContainer h3, p, ul{
+    padding: 0.3em 0;
+}
+
+.cardContainer button{
+    border: none;
+    border-radius: 0.3em;
+    background-color: #F28482;
+    padding: 0.5em 2em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    justify-self: flex-start;
 }
 
 ul li{
